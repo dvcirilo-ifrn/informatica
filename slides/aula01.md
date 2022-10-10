@@ -148,11 +148,15 @@ blockquote {
 
 ---
 
+![bg 80%](../img/jobs-wozniak.jpg)
+
+---
+
 ![bg 80%](../img/apple1.jpg)
 
 ---
 
-![bg 80%](../img/jobs-wozniak.jpg)
+![bg 80%](../img/apple-board.jpg)
 
 ---
 
