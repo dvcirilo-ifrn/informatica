@@ -106,3 +106,64 @@ blockquote {
 # IBM 1401
 - Altura de 1,5m e 1,2m de comprimento;
 - 4KB de memória;
+
+---
+
+![bg 80%](../img/transistores.jpg)
+
+---
+
+![bg 80%](../img/ibm1401.jpg)
+
+---
+
+# 3ª Geração - 1960-1973
+- Computadores com microcircuitos ou circuitos integrados (CIs);
+- Aumento da capacidade de trabalho do computador;
+- O computador passou a ser utilizado em bancadas;
+- Grandes discos de armazenamento tinham 5MB e mediam 24 polegadas de diâmetro.
+
+---
+
+![bg 80%](../img/ic.jpg)
+
+---
+
+![bg fit](../img/ibm360.jpg)
+
+---
+
+# 4ª Geração - 1973-Atual
+- Computadores com circuitos VLSI (*Very Large Scale Integration*);
+- Miniuaturização progressiva;
+- O início da chamada era da microinformática.
+
+---
+
+![bg 80%](../img/altair.jpg)
+
+---
+
+![bg 80%](../img/gates.jpg)
+
+---
+
+![bg 80%](../img/apple1.jpg)
+
+---
+
+![bg 80%](../img/jobs-wozniak.jpg)
+
+---
+
+![bg 100%](../img/s22d.jpg)
+![bg 100%](../img/s22c.jpg)
+
+---
+
+![bg 100%](../img/s22a.jpg)
+![bg 100%](../img/s22b.jpg)
+
+---
+# <!--fit--> Dúvidas? 🤔
+
