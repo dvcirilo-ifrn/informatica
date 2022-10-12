@@ -129,7 +129,7 @@ blockquote {
 
 ---
 
-![bg fit](../img/ibm360.jpg)
+![bg 60%](../img/ibm360.jpg)
 
 ---
 
@@ -165,8 +165,8 @@ blockquote {
 
 ---
 
-![bg 100%](../img/s22a.jpg)
-![bg 100%](../img/s22b.jpg)
+![bg vertical 60%](../img/s22a.jpg)
+![bg 60%](../img/s22b.jpg)
 
 ---
 # <!--fit--> Dúvidas? 🤔
