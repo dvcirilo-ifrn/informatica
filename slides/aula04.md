@@ -5,6 +5,7 @@ paginate: true
 _paginate: false
 title: Aula 04: Software
 author: Diego Cirilo
+
 ---
 
 # <!--fit--> Informática

@@ -3,6 +3,8 @@ size: 4:3
 theme: default
 paginate: true
 _paginate: false
+title: Aula 02: Definições e tipos de PC
+author: Diego Cirilo
 
 ---
 

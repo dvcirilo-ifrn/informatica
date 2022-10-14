@@ -3,6 +3,8 @@ size: 4:3
 theme: default
 paginate: true
 _paginate: false
+title: Aula 01: Apresentação da disciplina e Introdução
+author: Diego Cirilo
 
 ---
 # <!--fit--> Informática

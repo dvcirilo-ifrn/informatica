@@ -3,8 +3,16 @@ size: 4:3
 theme: default
 paginate: true
 _paginate: false
+author: Diego Cirilo
+title: Aula 03: Hardware
 
 ---
+<style>
+table {
+  display: block;
+  margin: 0 auto;
+}
+</style>
 
 # <!--fit--> Informática
 ### Prof. Diego Cirilo
