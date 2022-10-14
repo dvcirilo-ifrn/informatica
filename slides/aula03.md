@@ -84,7 +84,7 @@ table {
 
 # Memória secundária ou de armazenamento
 
-- Permite o armazenamento de grandes quantidades de dados com confiabilidade de baixo custo;
+- Permite o armazenamento de grandes quantidades de dados com confiabilidade e baixo custo;
     - Cartão Perfurado;
     - Disco Magnético:
         - Disco flexível 3 1/2";
