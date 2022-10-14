@@ -128,6 +128,7 @@ pprint(dados)
     - Compactadores
     - Players
     - Leitores de PDF
+![bg 80% right:33%](../img/apps.png)
 
 ---
 
