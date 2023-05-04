@@ -54,18 +54,6 @@ table {
     - Memória principal ou de processamento;
     - Memória secundária ou de armazenamento.
 ---
-# Grandezas de memória
-
-| **Tipo** | **Valor** |
-|--|:--:|
-| Bit           | Dígito Binário (0 ou 1) | 
-| Byte (B)      | 8 bits                  | 
-| Kilobyte (kB) | 1024 B                  |
-| Megabyte (MB) | 1024 kB                 |
-| Gigabyte (GB) | 1024 MB                 |
-| Terabyte (TB) | 1024 GB                 |
-
----
 
 # Memória Principal ou Memória de Processamento
 
@@ -86,18 +74,30 @@ table {
 
 - Permite o armazenamento de grandes quantidades de dados com confiabilidade e baixo custo;
     - Cartão Perfurado;
+    - Fita Magnética;
     - Disco Magnético:
         - Disco flexível 3 1/2";
-        - Disco rígido;
+        - Disco rígido (HD);
         - Zip Disk;
     - Disco Óptico:
         - CD, DVD, *Blu-Ray*;
-    - Fita Magnética;
-    - Memórias *Flash*.
+    - Memórias *Flash* (Pen-drive, Cartão de Memória/SD, SSD).
 
 ---
 
 ![bg 80%](../img/storage.jpg)
+
+---
+# Grandezas de memória
+
+| **Tipo** | **Valor** |
+|--|:--:|
+| Bit           | Dígito Binário (0 ou 1) | 
+| Byte (B)      | 8 bits                  | 
+| Kilobyte (kB) | 1024 B                  |
+| Megabyte (MB) | 1024 kB                 |
+| Gigabyte (GB) | 1024 MB                 |
+| Terabyte (TB) | 1024 GB                 |
 
 ---
 # Barramentos
