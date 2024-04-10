@@ -1,3 +1,3 @@
-# Informática - 2022.2
+# Informática
 
 Material de aula da disciplina de Informática.
