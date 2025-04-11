@@ -29,6 +29,7 @@ author: Diego Cirilo
 - Descreve as operações necessárias para processamento de dados.
 
 ---
+<style scoped>pre { font-size: 14px; }</style>
 # Exemplo (C)
 
 ```c

@@ -42,22 +42,22 @@ img {
 ---
 # RNP em 1992
 
-![width:700px](../img/rnp1992.jpg)
+![width:600px](../img/rnp1992.jpg)
 
 ---
 # RNP em 1995
 
-![width:700px](../img/rnp1995.jpg)
+![width:600px](../img/rnp1995.jpg)
 
 ---
 # RNP em 2011
 
-![width:700px](../img/rnp2011.jpg)
+![width:600px](../img/rnp2011.jpg)
 
 ---
 # RNP em 2021
 
-![width:800px](../img/rnp2021.png)
+![width:700px](../img/rnp2021.png)
 
 ---
 # WWW
@@ -82,6 +82,7 @@ img {
     - Fibra óptica
 
 ---
+<style scoped>section { font-size: 26px; }</style>
 # Conceitos importantes
 - Endereços
     - Ex. *www.ifrn.edu.br*
@@ -169,6 +170,7 @@ img {
 - Nuvem.
 
 ---
+<style scoped>section { font-size: 26px; }</style>
 # Dicas gerais de segurança
 - Sempre saia de sites utilizando o botão de sair/logout.
 - Crie senhas difíceis de adivinhar, mas fáceis de lembrar.
