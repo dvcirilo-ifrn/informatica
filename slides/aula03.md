@@ -69,7 +69,7 @@ table {
 ![bg 80%](../img/ram.jpg)
 
 ---
-
+<style scoped>section { font-size: 26px; }</style>
 # Memória secundária ou de armazenamento
 
 - Permite o armazenamento de grandes quantidades de dados com confiabilidade e baixo custo;
@@ -153,6 +153,7 @@ table {
 ![bg 80%](../img/entrada.jpg)
 
 ---
+<style scoped>section { font-size: 26px; }</style>
 # Dispositivos de saída
 - Permitem que o computador transfira dados internos para o mundo;
 - Exemplos:
