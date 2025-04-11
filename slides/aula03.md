@@ -58,10 +58,10 @@ table {
 # Memória Principal ou Memória de Processamento
 
 - Utilizada para armazenar os dados e programas que estão sendo utilizados pelo processador;
-- Também chamada de memória RAM, apesar de ser um termo histórico;
+- Também chamada de memória RAM (*Random Access Memory*), apesar de ser um termo histórico;
 - Muito mais rápida que as memórias secundárias;
 - Muito mais cara que as memórias secundárias;
-- Várias tecnologias, atualmente DDR3 e DDR4;
+- Várias tecnologias, atualmente DDR4 e DDR5;
 - Podem ser substituídas facilmente.
 
 ---

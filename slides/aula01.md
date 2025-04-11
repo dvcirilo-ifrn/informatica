@@ -33,7 +33,7 @@ author: Diego Cirilo
 
 # Avaliação
 - *Quizzes* sobre parte teórica;
-- Exercícios e avaliações práticas em laboratório.
+- Tarefas práticas em laboratório.
 
 ---
 # Reposição de avaliação
