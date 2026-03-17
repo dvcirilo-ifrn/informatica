@@ -10,7 +10,8 @@ Material de aula da disciplina de **Informática** ministrada no [IFRN campus S�
 
 ## Links Úteis
 
-- [Ementa da disciplina - Lic. em Matemática (PPC 2012)](ementa-matematica.pdf)
+- [Ementa da disciplina - Lic. em Matemática (PPC 2025)](ementa-matematica-2025.pdf)
+- [Ementa da disciplina - Lic. em Matemática (PPC 2012)](ementa-matematica-2012.pdf)
 - [Apostila do Prof. Alex Santos](apostila-informatica.pdf)
 - [Google Sala de Aula](https://classroom.google.com/)
 
