@@ -55,120 +55,28 @@ blockquote {
 ---
 
 # Definição
-> Computador é um conjunto de dispositivos eletrônicos capazes de aceitar dados e instruções, executar essas instruções para processar os dados, e apresentar os resultados - *Academic Press Dictionary of Science Technology*.
-
----
-# Histórico
-
-- 1ª Geração - 1939-1950
-- 2ª Geração - 1950-1960
-- 3ª Geração - 1960-1973
-- 4ª Geração - 1973-Atual
----
-# 1ª Geração - 1939-1950 
-
-- Grandes computadores que utilizavam válvulas termiônicas;
-- Difícil manutenção;
-- Alto consumo de energia;
-- Programação feita em linguagem de máquina;
-
----
-# ENIAC
-
-- Primeiro computador eletrônico digital, construído em 1946;
-- Possuia cerca de 17.468 válvulas, 7,200 diodos, 70.000 resistores, 10.000 capacitores;
-- Pesava 30 toneladas, ocupava a extensão de uma quadra de tênis e tinha altura correspondente a um prédio de 3 andares;
-- Consumia cerca de 150 kW de potência.
+> **Computador** é um conjunto de dispositivos eletrônicos capazes de aceitar dados e instruções, executar essas instruções para processar os dados, e apresentar os resultados - *Academic Press Dictionary of Science Technology*.
 
 ---
 
-![bg 80%](../img/valvulas.jpg)
+# Elementos de um sistema computacional
+- Os elementos de um sistema computacional podem ser divididos em:
+    - **Hardware** - Parte Física;
+    - **Software** - Parte Lógica;
 
 ---
-
-![bg 80%](../img/eniac1.jpg)
-
----
-
-![bg 80%](../img/eniac2.jpg)
+# Hardware
+- Conjunto de dispositivos elétricos/eletrônicos que englobam CPU, a memória e o dispositivos de entrada/saída de um sistema computacional;
+- Composto de objetos tangíveis, circuitos integrados, placas de circuito, cabos, teclados, etc;
+- Parte **física**.
 
 ---
+# Software
 
-![bg 80%](../img/eniac3.jpg)
-
----
-# 2ª Geração - 1950-1960
-- As válvulas foram trocadas por transistores de silício;
-- Redução do tamanho e custo;
-- Aumento da rapidez e confiabilidade;
-- Programação feita na linguagem Assembly;
-- Criação dos primeiros minicomputadores;
-
----
-# IBM 1401
-- Altura de 1,5m e 1,2m de comprimento;
-- 4KB de memória;
-
----
-
-![bg 80%](../img/transistores.jpg)
-
----
-
-![bg 80%](../img/ibm1401.jpg)
-
----
-
-# 3ª Geração - 1960-1973
-- Computadores com microcircuitos ou circuitos integrados (CIs);
-- Aumento da capacidade de trabalho do computador;
-- O computador passou a ser utilizado em bancadas;
-- Grandes discos de armazenamento tinham 5MB e mediam 24 polegadas de diâmetro.
-
----
-
-![bg 80%](../img/ic.jpg)
-
----
-
-![bg 60%](../img/ibm360.jpg)
-
----
-
-# 4ª Geração - 1973-Atual
-- Computadores com circuitos VLSI (*Very Large Scale Integration*);
-- Miniuaturização progressiva;
-- O início da chamada era da microinformática.
-
----
-
-![bg 80%](../img/altair.jpg)
-
----
-
-![bg 80%](../img/gates.jpg)
-
----
-
-![bg 80%](../img/jobs-wozniak.jpg)
-
----
-
-![bg 80%](../img/apple1.jpg)
-
----
-
-![bg 80%](../img/apple-board.jpg)
-
----
-
-![bg 100%](../img/s22d.jpg)
-![bg 100%](../img/s22c.jpg)
-
----
-
-![bg vertical 60%](../img/s22a.jpg)
-![bg 60%](../img/s22b.jpg)
+- Conjunto de algoritmos ou metodologias utilizadas para dar funcionalidade ao computador;
+- **Algoritmo**: um conjunto de regras e operações que são executadas em cálculo ou solução de problema;
+- Programas, aplicativos, sistemas operacionais;
+- Parte **lógica**.
 
 ---
 # <!--fit--> Dúvidas? 🤔

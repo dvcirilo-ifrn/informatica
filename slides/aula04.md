@@ -3,198 +3,185 @@ size: 4:3
 theme: default
 paginate: true
 _paginate: false
-title: Aula 04: Software
+title: Aula 04: Internet e Segurança da Informação
 author: Diego Cirilo
 
 ---
 
+<style>
+img {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
 # <!--fit--> Informática
 ### Prof. Diego Cirilo
-**Aula 04** Software
+**Aula 04** Internet e Segurança da Informação
 
 ---
-
-# Software
-- Responsável por dar utilidade ao computador;
-- Parte **lógica**: sistema operacional, aplicativos;
-- Composto por **algoritmos**.
-
-![bg 100% right:40%](../img/fluxograma.svg)
+# Histórico
+- A internet começou a ser criada com o projeto do governo americano chamado **ARPANET**
+- Tinha o objetivo de interligar Universidades e Instituições de pesquisa e militares
 
 ---
-
-# Software
-- Escrito por programadores/desenvolvedores em alguma **linguagem de programação**;
-- C, C++, C#, Java, JavaScript, Ruby, Python, Perl, Haskell, Erlang, Go...
-- Descreve as operações necessárias para processamento de dados.
-
----
-<style scoped>pre { font-size: 14px; }</style>
-# Exemplo (C)
-
-```c
-// Function to draw the boundaries
-void draw()
-{
-    system("cls");
-    for (i = 0; i < height; i++) {
-        for (j = 0; j < width; j++) {
-            if (i == 0 || i == width - 1
-                || j == 0
-                || j == height - 1) {
-                printf("#");
-            }
-            else {
-                if (i == x && j == y)
-                    printf("0");
-                else if (i == fruitx
-                         && j == fruity)
-                    printf("*");
-                else
-                    printf(" ");
-            }
-        }
-        printf("\n");
-    }
-  
-    // Print the score after the
-    // game ends
-    printf("score = %d", score);
-    printf("\n");
-    printf("press X to quit the game");
-}
-```
+# Histórico
+- Em 1980 várias outras universidades foram incorporadas
+- Em 1985 a NSF (*National Science Foundation*) interligou seus computadores em rede;
+- Em 1986 a NSF se junta à ARPANET e essa rede passa a ser chamada de *Internet*;
+- Em 1989 a FAPESP (Fundação de Amparo à Pesquisa do Estado de São Paulo) e a LNCC (Laboratório Nacional de Computação Científica) se ligam a Internet
+- No mesmo ano foi criada a RNP (Rede Nacional de Pesquisa)
 
 ---
-# Exemplo (Python)
-
-```python
-from urllib.request import Request, urlopen
-import json
-from pprint import pprint
-
-MATRICULA = ''
-TOKEN = ''
-AUTHORIZATION = ''
-
-req = Request('https://suap.ifrn.edu.br/api/v2/edu/alunos/{}/'.format(MATRICULA))
-req.add_header('Accept', 'application/json')
-req.add_header('X-CSRFToken', TOKEN)
-req.add_header('Authorization', AUTHORIZATION)
-
-resposta = urlopen(req)
-dados_byte = resposta.read()
-dados_txt = dados_byte.decode('utf-8')
-dados = json.loads(dados_txt)
-
-pprint(dados)
-```
+# Histórico
+- Em 1991 o cientista Tim Berners-Lee do CERN cria o WWW (*World Wide Web*)
+    - Antes só existia email, FTP e Telnet
+- Depois do WWW foi criado o Mosaic, o primeiro navegador para *web*.
+- Em 1993 a internet é aberta para exploração comercial nos EUA, e o mesmo ocorre um ano depois no Brasil;
 
 ---
+# RNP em 1992
 
-# Tipos de Softwares
-
-- Sistemas Operacionais
-    - Responsáveis pelo gerenciamento do hardware, aplicativos e interface de usuário;
-    - Disponibilizam funcionalidades para os aplicativos;
-- Aplicativos
-    - Fornecem funcionalidades para o usuário.
-
-![bg 100% right:40%](../img/software.png)
+![width:600px](../img/rnp1992.jpg)
 
 ---
+# RNP em 1995
 
-# Sistemas Operacionais
-
-- Microsoft Windows (95, 98, Me, NT, XP, 7, 8, 10, 11)
-- Mac OSX
-- Linux (Ubuntu, Mint, Debian, Fedora, etc.)
-- Móveis:
-    - Android e iOS
-- Unix, FreeBSD, FreeRTOS, Mbed OS...
-
-![bg 70% right:33%](../img/oses.jpg)
+![width:600px](../img/rnp1995.jpg)
 
 ---
+# RNP em 2011
 
-# Aplicativos
-- Escritório
-    - Editor de textos
-    - Planilhas
-    - Apresentação de slides
-- CAD/CAM
-- Produção multimídia
-- Navegadores web (*browsers*)
-- Utilitários
-    - Compactadores
-    - Players
-    - Leitores de PDF
-![bg 80% right:33%](../img/apps.png)
+![width:600px](../img/rnp2011.jpg)
 
 ---
+# RNP em 2021
 
-# Tipos de distribuição
-- Software comercial
-- *Freeware*
-- *Shareware/Adware/Freemium*
-- ~~Software Pirata~~
-- Software Livre
-- *Software as a Service* - SaaS
+![width:700px](../img/rnp2021.png)
 
 ---
-# Software Comercial
-- O usuário deve pagar pelo produto;
-- Normalmente uma licença vitalícia para a versão comprada;
-- Suporte do vendedor;
-- Atualizações;
-- Descontos para estudantes;
-- Ex. Windows, Pacote Office, AutoCAD...
+# WWW
+- Sistema de informação que utiliza a internet como meio de transmissão
+- Conceitos:
+    - HTTP - Protocolo de transmissão de hypertexto
+        - Realiza a comunicação com um servidor Web
+    - URL - Sistema de endereços
+        - `http://www.ifrn.edu.br/`
+    - HTML - Linguagem de marcação de texto
+        - Formatação para texto, inserção de imagens e *links*
+    - FTP - Protocolo de transmissão de arquivos
 
 ---
-# Freeware
-- Software Gratuito
-- Versão completa e gratuita
-- Ex. Whatsapp, Telegram, Winamp, Foxit Reader...
+# Acesso à *internet*
+- Acesso Discado (*dial-up*)
+    - [Som](https://www.youtube.com/watch?v=GSRG0TqxLWc)
+- Conexão Banda Larga
+    - ADSL
+    - Cabo
+    - Rádio
+    - Fibra óptica
 
 ---
-# Shareware/Adware/Freemium
-- Software inicialmente gratuito, mas com funcionalidade limitada;
-- Limite de tempo, marca d'água, propagandas, etc;
-- Ex. Jogos.
+<style scoped>section { font-size: 26px; }</style>
+# Conceitos importantes
+- Endereços
+    - Ex. *www.ifrn.edu.br*
+    - Primeiro nível:
+        - .br indica o país. Ex. *.it*, *.pt*, *.mx*
+        - Quando não possui o endereço é americano ou internacional.
+    - Segundo nível:
+        - Tipo de instiuição. Ex. *.edu*, *.com*, *.gov*
+    - Terceiro:
+        - Nome do site
+    - Quarto:
+        - Tipo de serviço. Ex. *www*, *mail*, *suap*, etc.
 
 ---
-# Software Pirata
-- Software comercial ou shareware modificado para funcionar sem a licença;
-- Também chamado de *crackeado*;
-- Falhas de segurança;
-
-![bg 90% right:33%](../img/pirate.jpg)
-
----
-# Software Livre
-- Disponibilizado gratuitamente junto ao seu *código-fonte*;
-- Richard Stallman/GNU/FSF
-- Permite colaboração no desenvolvimento e auditoria na segurança;
-- Ex. Chrome, Firefox, Linux, Android, GIMP, Blender, LibreOffice, VLC Media Player...
-
-![bg 70% vertical right:33%](../img/meditate.png)
-![bg 60%](../img/stallman.jpg)
-![bg 60%](../img/fsf.png)
+# Conceitos importantes
+- Cookies
+    - Arquivos de informações do usuário, identificando-o para o próximo acesso.
+    - Armazenam preferências e dados de navegação.
+    - No passado era alvo de *hackers*.
+- Cache
+    - Espaço para armazenar páginas utilizadas recentemente
+    - Acelera o acesso das páginas.
 
 ---
-# Software as a Service - SaaS
-- Software como serviço;
-- Demanda uma assinatura, e não mais a aquisição do software;
-- Modelo de negócio mais lucrativo;
-- Ex. Ferramentas Adobe, Office 360...
-
-![bg 70% right:33%](../img/conscription.webp)
+# Conceitos importantes
+- Navegador ou *browser*
+    - Aplicativo responsável pelo acesso às páginas web.
+    - Ex. Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox, Opera, Brave, Chromium...
+- Mecanismos de busca
+    - Site que armazena informações e permite pesquisa por termos
+    - Ex. Google, DuckDuckGo, Bing.
 
 ---
-# Obtendo software
-- *App stores*;
-- Site do desenvolvedor;
-- ~~Sites genéricos~~.
+# <!--fit--> Segurança da Informação
+
+![width:400px](../img/alerta.jpg)
+
+---
+# Segurança da Informação
+- O bem mais valioso de um sistema computacional são os dados.
+> A segurança da informação é um conjunto de medidas que se constituem basicamente de **controles** e **política de segurança**, tendo como objetivo a proteção das informações dos clientes e da empresa (**ativos/bens**), controlando o **risco** de revelação ou alteração por pessoas não autorizadas.
+
+---
+# Mecanismos de segurança
+- Controle Físico
+    - Barreiras que limitam o contato ou acesso direto à informação.
+    - Ex. portas, paredes, trancas, blindagem, guardas.
+- Controle Lógico
+    - Barreiras que limitam o acesso à informação em ambiente eletrônico.
+    - Ex. criptografia, senhas, biometria, firewall.
+
+---
+# Vírus
+- São programas criados para causar danos
+    - Apagando dados
+    - Capturando informações
+    - Operando indevidamente o hardware do usuário
+
+
+---
+# Tipos de virus
+- Worm
+- Trojan (Cavalo de Tróia)
+- Spyware, Keylogger
+- Hijacker, cryptojacker
+- Ramsonware
+
+---
+# Outras ameaças
+- Phishing
+- Engenharia social
+- Mensagens fraudulentas
+- Golpes
+---
+# Ferramentas de proteção
+- Antivirus
+- Firewall
+- Atualizações
+- **Conhecimento**
+---
+# Backup
+- Dados de armazenamento podem sofrer danos físicos ou perda/roubo.
+- Backups são cópias de segurança.
+- Múltiplas localizações físicas e geográficas.
+- Nuvem.
+
+---
+<style scoped>section { font-size: 26px; }</style>
+# Dicas gerais de segurança
+- Sempre saia de sites utilizando o botão de sair/logout.
+- Crie senhas difíceis de adivinhar, mas fáceis de lembrar.
+    - Letras, números e símbolos.
+- Mude as senhas periodicamente
+- Não repita senhas em sites que possuam dados importantes.
+- Mantenha seus programas atualizados.
+- Não clique em links suspeitos.
+- Faça backups de seus arquivos importantes.
+- Segurança é mais importante que conveniência.
+- Sempre desconfie.
 
 ---
 

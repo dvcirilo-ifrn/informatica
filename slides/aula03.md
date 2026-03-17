@@ -3,224 +3,198 @@ size: 4:3
 theme: default
 paginate: true
 _paginate: false
+title: Aula 03: Software
 author: Diego Cirilo
-title: Aula 03: Hardware
 
 ---
-<style>
-table {
-  display: block;
-  margin: 0 auto;
-}
-</style>
 
 # <!--fit--> Informática
 ### Prof. Diego Cirilo
-**Aula 03** Hardware
-
----
-# Arquitetura de von Neumann
-
-- Proposta por John von Neumann e outros em 1945 para uso no EDVAC;
-- Também chamada de arquitetura Princeton por conta da universidade onde foi desenvolvida;
-- Descreve a arquitetura do computador pessoal como conhecemos hoje;
-
----
-# Arquitetura de von Neumann
-
-![auto](../img/vonneumann.png)
-
----
-# Processador
-- Responsável pelo "processamento" propriamente dito;
-- Também chamado de CPU - *Central Processing Unit*;
-- Realiza funções lógicas, aritméticas e de controle;
-- Executa o *software*.
+**Aula 03** Software
 
 ---
 
-![bg 80%](../img/cpu2.jpg)
+# Software
+- Responsável por dar utilidade ao computador;
+- Parte **lógica**: sistema operacional, aplicativos;
+- Composto por **algoritmos**.
+
+![bg 100% right:40%](../img/fluxograma.svg)
 
 ---
 
-![bg 80%](../img/cpu.jpg)
+# Software
+- Escrito por programadores/desenvolvedores em alguma **linguagem de programação**;
+- C, C++, C#, Java, JavaScript, Ruby, Python, Perl, Haskell, Erlang, Go...
+- Descreve as operações necessárias para processamento de dados.
+
+---
+<style scoped>pre { font-size: 14px; }</style>
+# Exemplo (C)
+
+```c
+// Function to draw the boundaries
+void draw()
+{
+    system("cls");
+    for (i = 0; i < height; i++) {
+        for (j = 0; j < width; j++) {
+            if (i == 0 || i == width - 1
+                || j == 0
+                || j == height - 1) {
+                printf("#");
+            }
+            else {
+                if (i == x && j == y)
+                    printf("0");
+                else if (i == fruitx
+                         && j == fruity)
+                    printf("*");
+                else
+                    printf(" ");
+            }
+        }
+        printf("\n");
+    }
+  
+    // Print the score after the
+    // game ends
+    printf("score = %d", score);
+    printf("\n");
+    printf("press X to quit the game");
+}
+```
+
+---
+# Exemplo (Python)
+
+```python
+from urllib.request import Request, urlopen
+import json
+from pprint import pprint
+
+MATRICULA = ''
+TOKEN = ''
+AUTHORIZATION = ''
+
+req = Request('https://suap.ifrn.edu.br/api/v2/edu/alunos/{}/'.format(MATRICULA))
+req.add_header('Accept', 'application/json')
+req.add_header('X-CSRFToken', TOKEN)
+req.add_header('Authorization', AUTHORIZATION)
+
+resposta = urlopen(req)
+dados_byte = resposta.read()
+dados_txt = dados_byte.decode('utf-8')
+dados = json.loads(dados_txt)
+
+pprint(dados)
+```
 
 ---
 
-# Memórias
-- Dispositivo responsável pelo armazenamento de dados e programas (von Neumann);
-- Sua capacidade de armazenamento é medida em bytes e seus múltiplos (kB, MB, GB, TB, etc);
-- Há dois tipos básicos em uso no computador:
-    - Memória principal ou de processamento;
-    - Memória secundária ou de armazenamento.
----
+# Tipos de Softwares
 
-# Memória Principal ou Memória de Processamento
+- Sistemas Operacionais
+    - Responsáveis pelo gerenciamento do hardware, aplicativos e interface de usuário;
+    - Disponibilizam funcionalidades para os aplicativos;
+- Aplicativos
+    - Fornecem funcionalidades para o usuário.
 
-- Utilizada para armazenar os dados e programas que estão sendo utilizados pelo processador;
-- Também chamada de memória RAM (*Random Access Memory*), apesar de ser um termo histórico;
-- Muito mais rápida que as memórias secundárias;
-- Muito mais cara que as memórias secundárias;
-- Várias tecnologias, atualmente DDR4 e DDR5;
-- Podem ser substituídas facilmente.
+![bg 100% right:40%](../img/software.png)
 
 ---
 
-![bg 80%](../img/ram.jpg)
+# Sistemas Operacionais
 
----
-<style scoped>section { font-size: 26px; }</style>
-# Memória secundária ou de armazenamento
+- Microsoft Windows (95, 98, Me, NT, XP, 7, 8, 10, 11)
+- Mac OSX
+- Linux (Ubuntu, Mint, Debian, Fedora, etc.)
+- Móveis:
+    - Android e iOS
+- Unix, FreeBSD, FreeRTOS, Mbed OS...
 
-- Permite o armazenamento de grandes quantidades de dados com confiabilidade e baixo custo;
-    - Cartão Perfurado;
-    - Fita Magnética;
-    - Disco Magnético:
-        - Disco flexível 3 1/2";
-        - Disco rígido (HD);
-        - Zip Disk;
-    - Disco Óptico:
-        - CD, DVD, *Blu-Ray*;
-    - Memórias *Flash* (Pen-drive, Cartão de Memória/SD, SSD).
+![bg 70% right:33%](../img/oses.jpg)
 
 ---
 
-![bg 80%](../img/storage.jpg)
-
----
-# Grandezas de memória
-
-| **Tipo** | **Valor** |
-|--|:--:|
-| Bit           | Dígito Binário (0 ou 1) | 
-| Byte (B)      | 8 bits                  | 
-| Kilobyte (kB) | 1024 B                  |
-| Megabyte (MB) | 1024 kB                 |
-| Gigabyte (GB) | 1024 MB                 |
-| Terabyte (TB) | 1024 GB                 |
-
----
-# Barramentos
-
-- Vias de comunicação entre componentes de um sistema computacional;
-- Fios, cabos, fibra óptica, sinais de rádio...
-- Internos/Externos
-- Velocidade em bits/segundo, ex. 80Mbps ou 10MB/s.
-
----
-# Barramentos internos
-- Internos ao computador, conectam o processador aos diversos dispositivos, inclusive a memória;
-- Permitem a comunicação com dispositivos como:
-    - Placas de vídeo;
-    - Placas de rede;
-    - Modems...
-- Exemplos:
-    - ISA, IDE, PCI;
-    - I2C, PCI Express, SATA...
+# Aplicativos
+- Escritório
+    - Editor de textos
+    - Planilhas
+    - Apresentação de slides
+- CAD/CAM
+- Produção multimídia
+- Navegadores web (*browsers*)
+- Utilitários
+    - Compactadores
+    - Players
+    - Leitores de PDF
+![bg 80% right:33%](../img/apps.png)
 
 ---
 
-![bg 80%](../img/internos.jpg)
-
----  
-# Barramentos externos
-
-- Conectam o computador aos periféricos;
-- Exemplos:
-    - Paralela (LPT), Serial (RS-232), PS/2;
-    - *Game*, USB, VGA, HDMI...
+# Tipos de distribuição
+- Software comercial
+- *Freeware*
+- *Shareware/Adware/Freemium*
+- ~~Software Pirata~~
+- Software Livre
+- *Software as a Service* - SaaS
 
 ---
-
-![bg 80%](../img/barramentos-pc.jpg)
-
----
-
-![bg 80%](../img/painel.jpg)
-
----
-# Dispositivos de entrada
-
-- Permitem que dados do mundo exterior sejam enviados ao computador;
-- Exemplos:
-    - *Mouse*;
-    - Teclado;
-    - *Scanner*;
-    - Mesa digitalizadora...
+# Software Comercial
+- O usuário deve pagar pelo produto;
+- Normalmente uma licença vitalícia para a versão comprada;
+- Suporte do vendedor;
+- Atualizações;
+- Descontos para estudantes;
+- Ex. Windows, Pacote Office, AutoCAD...
 
 ---
-
-![bg 80%](../img/entrada.jpg)
-
----
-<style scoped>section { font-size: 26px; }</style>
-# Dispositivos de saída
-- Permitem que o computador transfira dados internos para o mundo;
-- Exemplos:
-    - Monitores;
-        - CRT;
-        - LCD;
-        - LED.
-    - Impressoras;
-        - Matricial;
-        - Jato de Tinta;
-        - *Laser*;
-        - *Plotter*.
+# Freeware
+- Software Gratuito
+- Versão completa e gratuita
+- Ex. Whatsapp, Telegram, Winamp, Foxit Reader...
 
 ---
-
-![bg 80%](../img/saida.jpg)
-
----
-# Alimentação/Proteção
-
-- O computador deve ser conectado à rede elétrica para utilização;
-- É necessária uma instalação elétrica adequada para o uso seguro;
-- Aterramento!
-- Dispositivos de proteção elétrica:
-    - Filtros de Linha;
-    - Estabilizadores;
-    - Módulos isoladores;
-    - No-breaks.
+# Shareware/Adware/Freemium
+- Software inicialmente gratuito, mas com funcionalidade limitada;
+- Limite de tempo, marca d'água, propagandas, etc;
+- Ex. Jogos.
 
 ---
+# Software Pirata
+- Software comercial ou shareware modificado para funcionar sem a licença;
+- Também chamado de *crackeado*;
+- Falhas de segurança;
 
-![bg 100%](../img/estabilizador.jpg)
-![bg 100%](../img/line-filter.jpg)
-![bg 100%](../img/modulo-isolador.jpg)
-![bg 100%](../img/nobreak.jpg)
-
----
-
-# Fonte de Alimentação
-- Dispositivo que converte a tensão da rede elétrica para as tensões utilizadas no computador;
-- Possui diversas saídas:
-    - +5V;
-    - +12V;
-    - +3.3V;
-    - -12V;
-    - ...
+![bg 90% right:33%](../img/pirate.jpg)
 
 ---
+# Software Livre
+- Disponibilizado gratuitamente junto ao seu *código-fonte*;
+- Richard Stallman/GNU/FSF
+- Permite colaboração no desenvolvimento e auditoria na segurança;
+- Ex. Chrome, Firefox, Linux, Android, GIMP, Blender, LibreOffice, VLC Media Player...
 
-![bg 100%](../img/psu.jpg)
-![bg 100%](../img/laptop-psu.jpg)
-
----
-
-# Gabinete
-
-- Dispositivo utilizado para abrigar os componentes do computador;
-- Deve ser escolhido (se possível) para atender requisitos de:
-    - Tamanho;
-    - Robustez;
-    - Ventilação;
-    - Proteção contra poeira;
-    - Ruído.
+![bg 70% vertical right:33%](../img/meditate.png)
+![bg 60%](../img/stallman.jpg)
+![bg 60%](../img/fsf.png)
 
 ---
+# Software as a Service - SaaS
+- Software como serviço;
+- Demanda uma assinatura, e não mais a aquisição do software;
+- Modelo de negócio mais lucrativo;
+- Ex. Ferramentas Adobe, Office 360...
 
-![bg 80%](../img/cases.jpg)
+![bg 70% right:33%](../img/conscription.webp)
+
+---
+# Obtendo software
+- *App stores*;
+- Site do desenvolvedor;
+- ~~Sites genéricos~~.
 
 ---
 
